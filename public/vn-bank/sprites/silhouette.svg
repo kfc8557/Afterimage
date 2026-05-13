@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 720" role="img" aria-label="Default character silhouette">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd37a" stop-opacity="0.42"/>
+      <stop offset="0.45" stop-color="#1a1724" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#05050a"/>
+    </linearGradient>
+    <radialGradient id="rim" cx="50%" cy="12%" r="82%">
+      <stop offset="0" stop-color="#98dce8" stop-opacity="0.38"/>
+      <stop offset="0.68" stop-color="#98dce8" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#98dce8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="360" height="720" fill="none"/>
+  <path d="M180 64C222 64 250 100 250 145C250 188 226 218 198 228C252 244 300 296 313 385C326 474 317 575 324 688H36C43 575 34 474 47 385C60 296 108 244 162 228C134 218 110 188 110 145C110 100 138 64 180 64Z" fill="url(#body)" stroke="#ffd37a" stroke-opacity="0.42" stroke-width="3"/>
+  <path d="M72 690C116 628 142 561 151 489C160 421 154 356 180 310C206 356 200 421 209 489C218 561 244 628 288 690Z" fill="#05050a" opacity="0.64"/>
+  <path d="M34 60H326V700H34Z" fill="url(#rim)" opacity="0.8"/>
+</svg>

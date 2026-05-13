@@ -1,0 +1,24 @@
+[
+  {
+    "id": "default-stage-background",
+    "assetClass": "background",
+    "assetUrl": "/vn-bank/backgrounds/default-stage.svg",
+    "tags": ["fallback", "stage", "interior", "night"],
+    "artDirectionTags": ["neutral"],
+    "characterId": null,
+    "locationId": "default-stage",
+    "priority": 0,
+    "licenseNote": "App-owned procedural SVG fallback."
+  },
+  {
+    "id": "default-silhouette-sprite",
+    "assetClass": "placeholder",
+    "assetUrl": "/vn-bank/sprites/silhouette.svg",
+    "tags": ["fallback", "character-sprite", "silhouette"],
+    "artDirectionTags": ["neutral"],
+    "characterId": null,
+    "locationId": null,
+    "priority": 0,
+    "licenseNote": "App-owned procedural SVG fallback."
+  }
+]

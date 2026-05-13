@@ -1,0 +1,38 @@
+{
+  "name": "afterimage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@aws-amplify/adapter-nextjs": "^1.7.2",
+    "@aws-amplify/ui-react": "^6.15.2",
+    "aws-amplify": "^6.16.3",
+    "next": "15.5.14",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "zod": "^3.25.17",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.22.0",
+    "@aws-amplify/backend-cli": "^1.8.2",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "aws-cdk-lib": "2.234.1",
+    "constructs": "^10.6.0",
+    "esbuild": "^0.27.4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.14",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.0.0"
+  }
+}
