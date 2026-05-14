@@ -26,7 +26,7 @@ pnpm install
 For the premade local story only:
 
 ```bash
-TEXT_PROVIDER=stub IMAGE_PROVIDER=stub pnpm dev --hostname 0.0.0.0
+pnpm dev --hostname 0.0.0.0
 ```
 
 Open in broswer:
@@ -54,7 +54,6 @@ Then run:
 pnpm dev --hostname 0.0.0.0
 ```
 
-Do not commit or share `.env.local`.
 
 ## Notes
 
